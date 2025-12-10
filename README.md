@@ -27,3 +27,12 @@ The push to talk script might need sudo access:
 
 
 The example code for creating a python client to connect to the Mindcraft server using websocket is in examples/python_client/python_client.py. This will be used to communicate commands to the LLM.
+
+
+Set up Qdrant database for storing speaker embeddings:
+
+```docker pull qdrant/qdrant```
+
+To run the database, use the compose file in qdrant_compose/docker-compose.yml
+
+```docker compose -f qdrant_compose/docker-compose.yml up -d```
