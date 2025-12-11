@@ -1,6 +1,6 @@
 const settings = {
     "minecraft_version": "auto", // or specific version like "1.21.6"
-    "host": "10.8.203.165", // or "localhost", "your.ip.address.here"
+    "host": "10.8.33.8", // or "localhost", "your.ip.address.here"
     "port": 55916, // set to -1 to automatically scan for open ports
     "auth": "offline", // or "microsoft"
 
@@ -12,6 +12,7 @@ const settings = {
     "profiles": [
         "./andy.json",
         // "./profiles/gpt.json",
+        // "./profiles/freeguy.json",
         // "./profiles/claude.json",
         // "./profiles/gemini.json",
         // "./profiles/llama.json",

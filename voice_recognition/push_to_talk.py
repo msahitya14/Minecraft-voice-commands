@@ -312,11 +312,18 @@ def transcription_process(command_queue, result_queue, stop_event):
 
                 if speaker_name == 'sahitya':
                     speaker_name = "X1n1ster"
+                elif speaker_name == 'anish':
+                    speaker_name = "bruhnish"
+                elif speaker_name == 'nihar':
+                    speaker_name = "DaddyUkeyha"
+                elif speaker_name == 'pranay':
+                    speaker_name = "LordOrochi"
 
+                agent_available = mind_client.get_available_agents()
                 mind_client.send_transcript(
                     speaker=speaker_name,
                     text=transcript,
-                    target_agent="andy",   # or whichever agent should receive it
+                    target_agent=agent_available,   # or whichever agent should receive it
 
                 )
 

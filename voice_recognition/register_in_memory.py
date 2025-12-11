@@ -19,7 +19,7 @@ SAMPLE_RATE = 16000
 RECORD_SECONDS = 5
 COLLECTION_NAME = "speaker_embeddings"
 
-SPEAKER_NAME = "pranay"  # change per enrollment
+SPEAKER_NAME = "nihar"  # change per enrollment
 
 # --------------------------------------------------
 # Device (CPU recommended for pyannote stability)
